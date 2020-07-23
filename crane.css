@@ -1,0 +1,142 @@
+body {
+    font: normal 1.1em/1.5 sans-serif;
+    color: #222;
+    background-image: linear-gradient(green, white);
+    box-sizing: border-box;
+}
+
+.main-wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+.main {
+    position: absolute;
+    height: 90%;
+    transform: translate(25%);
+    color: black;
+    max-width: 750px;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 25px;
+    
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
+.main-form {
+    margin-bottom: 25px;
+}
+
+.main-form input[type="text"] {
+    width: 50%;
+    border: 1px solid #050303;
+    padding: 10px;
+    margin-left: 20px;
+}
+.main-form #email {
+    margin-left: 55px;
+}
+
+.main-form input[type="password"] {
+    width: 50%;
+    border: 1px solid #050303;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.main-form textarea {
+    width: 80%;
+    resize: none;
+}
+.send{
+    position: relative;
+    left: 25%;
+    padding-top: 25px;
+
+}
+.btn:hover {
+    
+    background-color: red;
+    cursor: grab;
+}
+.btn {
+    border: 0px;
+    width: 30%;
+    font-size: 24px;
+    margin-bottom: 35px;
+    padding-bottom: 15px;
+    padding-top: 8px;
+    background: #fe8b8e;
+    color: #332902;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    text-align: middle;
+    
+}
+
+
+#error {
+    margin-bottom: 20px;
+    padding: 0px;
+    background: #fe8b8e;
+    text-align: center;
+    font-size: 16px;
+    transition: all 0.5s ease;
+}
+@media screen and (max-width:670px){
+    .main {
+        position: relative;
+        left: -75px;       
+        width: 80%;
+        color: black;       
+        background-color: whitesmoke;       
+    }
+    h2 {
+        margin-bottom: 20px;
+        
+        font-size: 20px;
+        color:#fe8b8e;
+    }
+    .btn:hover {
+    
+        background-color: red;
+        cursor: grab;
+    }
+    .btn {
+        
+        width: 50%;
+        
+        
+    }
+    
+}
+
+@media screen and (max-width:1000px){
+    
+    .main {
+        position: relative;
+        left: -95px;
+              
+        width: 80%;
+        color: black;       
+        background-color: whitesmoke;       
+    }
+    .btn {
+        
+        width: 50%;
+        
+    }
+    h2{
+        color: #fe8b8e;
+    }
+}
